@@ -1,0 +1,1 @@
+from ollama_ocr import OCRProcessor
