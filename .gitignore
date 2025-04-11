@@ -12,3 +12,7 @@ wheels/
 # uv env
 .venv/
 uv.lock
+
+# Resulting parsed Markdown files
+md_docs/*
+!md_docs/.gitkeep
