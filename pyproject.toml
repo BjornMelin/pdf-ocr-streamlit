@@ -1,7 +1,7 @@
 [project]
-name = "llama-ocr-docs"
+name = "pdf-ocr-streamlit"
 version = "0.1.0"
-description = "Streamlit app to OCR PDFs using a local Ollama multimodal model."
+description = "Streamlit app to OCR PDFs using a local Ollama multimodal model and browse results."
 authors = [{ name = "Bjorn Melin", email = "bjornmelin16@gmail.com" }]
 requires-python = ">=3.9"
 license = { text = "MIT" }
@@ -13,6 +13,9 @@ dependencies = [
     "pymupdf>=1.25.5",
     "streamlit>=1.44.1",
 ]
+
+[project.urls]
+Homepage = "https://github.com/BjornMelin/pdf-ocr-streamlit"
 
 [build-system]
 requires = ["setuptools>=61.0"]
